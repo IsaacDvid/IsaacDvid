@@ -1,12 +1,12 @@
    
  # Historia técnica ED-002  
 
-### datebase
+## datebase
 
 * la base de datos y utilizemos es **mySQL** crea una base de datos con el nombre tienda online, después crea una tabla con los campos únicos a rellenar con los siguientes campos: ID (llave primaria), Nombre, descripción, imagen y existencia. 
 * Creando la tabla con los siguientes campos:   
 
-|ID|Name|Description|Image|Stock|Price|
+|code|name|description|image|stock|price|
 |-|:-:|-:|-:|-|-|
 | | ||
 | | | |
@@ -115,7 +115,7 @@ Se ha eliminado correctamente.
 * Patch: 
 Se ha actualizado correctamente.
 
-## Codigo **HTTP** De las respuestas
+### Codigo **HTTP** De las respuestas
 
 * POST: 201 Ok, 409 Error
 
@@ -125,7 +125,7 @@ Se ha actualizado correctamente.
 
 * PATCH: 200 Ok, 404 Not Fount 
 
-## Mensaje de error 
+### Mensaje de error 
 
 * POST: Este Producto ya Existe
 
