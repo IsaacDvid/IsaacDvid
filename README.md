@@ -30,11 +30,85 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 ### Metodos: 
- 
-* POST: [Crear un nuevo producto](http://localhost:3000/products)
-* GET: [Mostrar los productos](http://localhost:3000/products)
-* DELETE: [Eliminar un producto](http://localhost:3000/products)
-* PATCH: [Actualizar un producto](http://localhost:3000/products)
+ Metodos para utilizar 
+* POST: [Crear un nuevo producto] 
+* GET: [Mostrar los productos] 
+* DELETE: [Eliminar un producto] 
+* PATCH: [Actualizar un producto] 
 
 > **NOTA:** Estos metodos solamente se deben utilizar con Postman, para manejar las peticiones post, delete y patch.
+
+### URLs de ENDpoints. 
+
+* [Crear productos:](http://localhost:3000/products)
+* [Mostrar productos:](http://localhost:3000/products)
+* [Mostrar un producto:](http://localhost:3000/products/id)
+* [Eliminar productos:](http://localhost:3000/products/id)
+* [Actualizar productos:](http://localhost:3000/products/id)
+
+### Body de la solicitud 
+El body que se va enviar en la peticion https por el metodo post es: 
+```jsn
+{
+  "code": "Codigo del producto", 
+  "name": "Nombre del producto",
+  "description": "Descripcion del producto",
+  "image": "Imagen del producto",
+  "stock": "Existencia de tu producto en numerico ",
+  "price": "Precio del producto"
+}
+```
+
+El body que se va utilizarse para actualizar un producto es el siguiente: 
+
+```jsn
+{
+  "code": "El valor que va actualizar", 
+  "name": "El valor que va actualizar",
+  "description": "El valor que va actualizar",
+  "image": "El valor que va actualizar",
+  "stock": "El valor que va actualizar",
+  "price": "El valor que va actualizar"
+}
+```
+ > Para actualizar un producto debe agregarse un ID al final de una URl.
+ > En el ejemplo anterior puede elegir cualquier valor que va actualizar en el Jsn.
+ 
+ ### Respuestas 
+ * **POST**: Se ha registrado un producto nuevo satisfactoriamente.
+ * **GET**:  Respuesta para mostrar un producto 
+ ```jsn 
+{
+  "code": "Codigo del producto", 
+  "name": "Nombre del producto",
+  "description": "Descripcion del producto",
+  "image": "Imagen del producto",
+  "stock": "Existencia de tu producto en numerico ",
+  "price": "Precio del producto"
+}
+```
+Mostrar varios productos 
+ ```jsn 
+[
+   {
+  "code": "Codigo del producto", 
+  "name": "Nombre del producto",
+  "description": "Descripcion del producto",
+  "image": "Imagen del producto",
+  "stock": "Existencia de tu producto en numerico ",
+  "price": "Precio del producto"
+},
+{
+  "code": "Codigo del producto", 
+  "name": "Nombre del producto",
+  "description": "Descripcion del producto",
+  "image": "Imagen del producto",
+  "stock": "Existencia de tu producto en numerico ",
+  "price": "Precio del producto"
+}
+]
+```
+ 
+
+
 
