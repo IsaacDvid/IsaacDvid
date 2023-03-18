@@ -115,6 +115,25 @@ Se ha eliminado correctamente.
 * Patch: 
 Se ha actualizado correctamente.
 
+## Codigo **HTTP** De las respuestas
+
+* POST: 201 Ok, 409 Error
+
+* GET:  200 Ok, 404 Not Fount
+
+* DELETE: 200 Ok, 404 Not Fount
+
+* PATCH: 200 Ok, 404 Not Fount 
+
+## Mensaje de error 
+
+* POST: Este Producto ya Existe
+
+* GET/:id, DELETE, PATCH: Este Producto No Existe
+
+
+
+
  
 
 
