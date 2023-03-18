@@ -113,8 +113,16 @@ Mostrar varios productos
 Se ha eliminado correctamente.  
 
 * Patch: 
-
-
+```jsn 
+{
+  "code": "Codigo del producto actualizado", 
+  "name": "Nombre del producto actualizado",
+  "description": "Descripcion del producto actualizado",
+  "image": "Imagen del producto actualizado",
+  "stock": "Existencia de tu producto en numerico actualizado",
+  "price": "Precio del producto actualizado"
+}
+```
 
  
 
