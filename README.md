@@ -88,7 +88,8 @@ El body que se va utilizarse para actualizar un producto es el siguiente:
 }
 ```
 Mostrar varios productos 
- ```jsn 
+> Esto se va mostrar solamente como parámetro de la URL, si coloca la ID. 
+```jsn 
 [
    {
   "code": "Codigo del producto", 
@@ -107,7 +108,14 @@ Mostrar varios productos
   "price": "Precio del producto"
 }
 ]
-```
+``` 
+* Delete:  
+Se ha eliminado correctamente.  
+
+* Patch: 
+
+
+
  
 
 
