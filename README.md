@@ -12,6 +12,7 @@
 | | | |
 | | | |
 
+**Installation**
 ```bash
 $ npm install
 ```
@@ -29,5 +30,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 ### Metodos: 
-Crear, actualizar ver y eliminar los datos expresados
-**Installation**
+ 
+* POST: [Crear un nuevo producto](http://localhost:3000/products)
+* GET: [Mostrar los productos](http://localhost:3000/products)
+* DELETE: [Eliminar un producto](http://localhost:3000/products)
+* PATCH: [Actualizar un producto](http://localhost:3000/products)
+
+> **NOTA:** Estos metodos solamente se deben utilizar con Postman, para manejar las peticiones post, delete y patch.
+
