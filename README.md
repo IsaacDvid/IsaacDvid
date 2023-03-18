@@ -11,9 +11,6 @@
 | | ||
 | | | |
 | | | |
-### Metodos: 
-Crear, actualizar ver y eliminar los datos expresados
-**Installation**
 
 ```bash
 $ npm install
@@ -31,3 +28,6 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+### Metodos: 
+Crear, actualizar ver y eliminar los datos expresados
+**Installation**
